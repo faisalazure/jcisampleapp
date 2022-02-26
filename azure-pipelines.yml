@@ -23,3 +23,5 @@ steps:
     appType: 'webAppLinux'
     WebAppName: 'exampleappjci'
     packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
+
+-task: PublishBuildArtifacts@4
