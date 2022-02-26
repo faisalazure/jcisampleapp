@@ -24,4 +24,4 @@ steps:
     WebAppName: 'exampleappjci'
     packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
 
--task: PublishBuildArtifacts@4
+- task: PublishBuildArtifacts@1
