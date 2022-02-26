@@ -26,3 +26,5 @@ steps:
     resourceGroupName: 'myapp-rg'
     slotName: 'production'
     package: '$(System.DefaultWorkingDirectory)/**/*.zip'
+    
+- task: PublishBuildArtifacts@1
